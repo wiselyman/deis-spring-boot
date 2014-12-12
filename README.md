@@ -16,7 +16,7 @@ deis-spring-boot
 **使用buildpacks部署spring boot jar 详细步骤:**
 - 生成一个ssh key，可使用安装deis的ssh key
 - 在注册好deis用户后，执行` deis keys:add `按照提示操作
-- 执行eval `ssh-agent -s`  
+- 执行```eval `ssh-agent -s`  ```
 - 执行`ssh-add ~/.ssh/deis`
 - `git clone https://github.com/wiselyman/deis-spring-boot.git`
 - `cd deis-spring-boot`
