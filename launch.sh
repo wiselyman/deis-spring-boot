@@ -22,7 +22,7 @@ CATALINA_OPTS="$CATALINA_OPTS -XX:+DisableExplicitGC"
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-JAR_FILE="replace me"
+JAR_FILE="spring-boot-docker-0.0.1-SNAPSHOT.jar"
 
 # http://docs.oracle.com/middleware/1213/wls/WLSRN/issues.htm#BCFFDBEB
 java -Djava.security.egd=file:/dev/./urandom \
